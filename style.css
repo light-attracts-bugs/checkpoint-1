@@ -1,3 +1,15 @@
 .rocket{
   font-size: 20pt;
 }
+
+.b-image{
+  padding: 0;
+  margin: 0;
+  background-image: url("https://picsum.photos/1920/1080"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 70vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  z-index: -1;
+}
