@@ -1,22 +1,64 @@
+body{
+  background-color: rgb(155, 194, 194);
+}
+
+iframe{
+  width: 380px;
+  height: 260px;
+}
+
+.stacking-content{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
 .rocket{
   font-size: 20pt;
 }
 
 .b-image{
   margin: 0;
-  background-image: url("https://picsum.photos/1920/1080"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 70vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  z-index: -1;
-}
-
-.text-and-button{
-  padding-top: 10vh;
+  background-image: url("https://picsum.photos/1920/1080");
+  height: auto;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .media{
-  padding-top: 10vh;
+  padding-top: 5vh;
+}
+
+.text-and-button{
+  width: 320px;
+  max-width: 320px;
+  padding-top: 5vh;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.card-col{
+  display: flex;
+  align-items: center;
+}
+
+.card{
+  width: 250px;
+  margin-top: 5vh;
+  background-color: rgb(129, 163, 150);
+}
+
+.card-img{
+  width: 200px;
+  border-radius: 50%
+}
+
+.card-button{
+  position: absolute;
+  bottom: -17px;
+  left: 80px;
 }
