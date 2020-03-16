@@ -12,15 +12,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+
+
 <body>
-  <header class="container-fluid b-image">
+
+  <header class="b-image">
     <ul class="nav row navbar-trans">
       <div class="col jusfity-content-start ">
         <li class="nav-item text-primary rocket">
           <i class="fa fa-rocket" aria-hidden="true"></i>
         </li>
       </div>
-      <div class=" col links d-flex justify-content-end">
+      <div class=" col links d-flex d-md-none justify-content-end">
+        <li class="nav-item text-primary bars">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </li>
+      </div>
+      <div class=" col links d-none d-md-flex justify-content-end">
         <li class="nav-item">
           <a class="nav-link active" href="#">Active</a>
         </li>
@@ -38,14 +46,16 @@
     <div class="row stacking-content row-cols-1 row-cols-lg-2">
       <div class="col order-lg-12">
         <div class="media px-0 justify-content-center">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LMWwImDX3ks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LMWwImDX3ks" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div class="col order-lg-1">
         <div class="text-and-button mx-auto">
           <button type="button" class="btn btn-primary">Primary</button>
-          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse odio ab iusto quae asperiores, officia molestias nemo similique soluta, ipsam, qui alias. Laboriosam sit accusantium nesciunt temporibus laudantium unde!</h6>
+          <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum esse odio ab iusto quae asperiores, officia
+            molestias nemo similique soluta, ipsam, qui alias. Laboriosam sit accusantium nesciunt temporibus laudantium
+            unde!</h6>
           <h7>
             Author <strong>Dude McBro</strong>
           </h7>
@@ -54,8 +64,8 @@
     </div>
   </header>
 
-  <section class="container card-container">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+  <section class="card-container">
+    <div class="row row-cols-1 row-cols-lg-3">
       <div class="col">
         <div class="card mx-auto">
           <img src="https://picsum.photos/150/150" class="card-img align-self-center" alt="...">
@@ -91,23 +101,34 @@
     </div>
     <div class="col order-lg-1">
       <div class="text-and-button mx-auto">
-        <p class="bottom-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti sequi, magnam unde possimus sint illum est alias officiis ex, saepe dicta similique provident cum, tempora exercitationem eligendi qui iste.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio omnis molestiae, voluptatem quidem voluptate impedit ut dignissimos. Unde sed deleniti saepe nobis atque earum vitae illo provident rem dolores!</p>
+        <p class="bottom-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti sequi,
+          magnam unde possimus sint illum est alias officiis ex, saepe dicta similique provident cum, tempora
+          exercitationem eligendi qui iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          distinctio omnis molestiae, voluptatem quidem voluptate impedit ut dignissimos. Unde sed deleniti saepe nobis
+          atque earum vitae illo provident rem dolores!</p>
         </h7>
       </div>
     </div>
   </div>
 
-  <!-- <section class="container bottom-container" >
-    <div class="row row-cols-1 row-cols-lg-2">
-      <div class="col bottom-img-col">
-        <img src="https://picsum.photos/400/300" class="bottom-img mx-auto" alt="...">
+  <footer>
+    <div class="logo-area d-flex justify-content-center">
+      <img src="https://picsum.photos/80/80" alt="" class="logo-img">
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col footer-text ">
+        <h6 class="text-center text-md-left">company name</h6>
       </div>
-      <div class="col ">
-        <p class="bottom-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus deleniti sequi, magnam unde possimus sint illum est alias officiis ex, saepe dicta similique provident cum, tempora exercitationem eligendi qui iste.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio omnis molestiae, voluptatem quidem voluptate impedit ut dignissimos. Unde sed deleniti saepe nobis atque earum vitae illo provident rem dolores!</p>
+      <div class="col footer-text ">
+        <h6 class="text-center text-md-right">more stuff </h6>
       </div>
     </div>
-  </section>  -->
+
+  </footer>
 
 </body>
+
+
 
 </html>
